@@ -5,7 +5,8 @@ import dotenv from "dotenv";
 import { docRouter } from "./routers/docRouter.js";
 import { userRouter } from "./routers/userRouter.js";
 import cors from "cors";
-import { AIrouter } from "./routers/aiRouter.js";
+import { AIrouter } from "./routers/AIrouter.js";
+
 dotenv.config();
 const app = express();
 const port = 3000;
