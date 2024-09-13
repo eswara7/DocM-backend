@@ -1,4 +1,4 @@
-import { generateText, summarizeText } from "./aiFeatures.js";
+import { generateText, summarizeText } from "./AIFeatures.js";
 
 
 const summerize = async (req, res) => {
