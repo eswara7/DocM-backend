@@ -28,4 +28,4 @@ const generateText = async (input) => {
   return await fetchFromHuggingFace("google/gemma-2-2b-it", prompt);
 }; 
 
-export{ summarizeText, generateText };
+export { summarizeText, generateText };

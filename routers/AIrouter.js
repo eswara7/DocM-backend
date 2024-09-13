@@ -1,5 +1,6 @@
 import express from "express"
-import { generate, summerize } from "../controllers/AIcontrollers.js";
+import { summerize } from "../controllers/AIcontrollers";
+
 export const AIrouter = express.Router();
 
 AIrouter.post("/summerize",summerize)
